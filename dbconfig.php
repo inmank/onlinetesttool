@@ -1,7 +1,7 @@
 <?php
 	// Database settings
 	// Database name
-	$dbname = "randomcodes";
+	$dbname = "oatool";
 	// Database host
 	$dbhost = "localhost";
 	// Database user
@@ -9,5 +9,5 @@
 	//Database password
 	$dbpass = "";
 	
-	$path = "http://localhost:90/xampp/randomcodes/";
+	$path = "http://localhost/onlinetesttool/";
 ?>
