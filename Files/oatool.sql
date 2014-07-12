@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jul 11, 2014 at 07:18 PM
+-- Generation Time: Jul 12, 2014 at 01:52 PM
 -- Server version: 5.5.24-log
 -- PHP Version: 5.4.3
 
@@ -65,6 +65,22 @@ CREATE TABLE IF NOT EXISTS `qa_basic` (
   `option5` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Question and answers on basic topics';
 
+--
+-- Dumping data for table `qa_basic`
+--
+
+INSERT INTO `qa_basic` (`qid`, `question`, `option1`, `option2`, `option3`, `option4`, `option5`) VALUES
+('1', 'Trail question-basic1?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('2', 'Trail question-basic2?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('3', 'Trail question-basic3?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('4', 'Trail question-basic4?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('5', 'Trail question-basic5?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('6', 'Trail question-basic6?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('7', 'Trail question-basic7?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('8', 'Trail question-basic8?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('9', 'Trail question-basic9?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('10', 'Trail question-basic10?', 'op1', 'op2', 'op3', 'op4', 'op5');
+
 -- --------------------------------------------------------
 
 --
@@ -81,6 +97,22 @@ CREATE TABLE IF NOT EXISTS `qa_expert` (
   `option5` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Dumping data for table `qa_expert`
+--
+
+INSERT INTO `qa_expert` (`qid`, `question`, `option1`, `option2`, `option3`, `option4`, `option5`) VALUES
+('1', 'Trail question-expert?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('2', 'Trail question-expert?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('3', 'Trail question-expert?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('4', 'Trail question-expert?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('5', 'Trail question-expert?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('6', 'Trail question-expert?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('7', 'Trail question-expert?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('8', 'Trail question-expert?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('9', 'Trail question-expert?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('10', 'Trail question-expert?', 'op1', 'op2', 'op3', 'op4', 'op5');
+
 -- --------------------------------------------------------
 
 --
@@ -96,6 +128,22 @@ CREATE TABLE IF NOT EXISTS `qa_medium` (
   `option4` text NOT NULL,
   `option5` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `qa_medium`
+--
+
+INSERT INTO `qa_medium` (`qid`, `question`, `option1`, `option2`, `option3`, `option4`, `option5`) VALUES
+('1', 'Trail question-medium?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('2', 'Trail question-medium?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('3', 'Trail question-medium?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('4', 'Trail question-medium?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('5', 'Trail question-medium?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('6', 'Trail question-medium?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('7', 'Trail question-medium?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('8', 'Trail question-medium?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('9', 'Trail question-medium?', 'op1', 'op2', 'op3', 'op4', 'op5'),
+('10', 'Trail question-medium?', 'op1', 'op2', 'op3', 'op4', 'op5');
 
 -- --------------------------------------------------------
 
